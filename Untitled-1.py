@@ -64,6 +64,11 @@ async def effect_4(ctx):
 async def effect_5(ctx):
     await ctx.send("Таяние вечной мерзлоты в Арктике высвобождает метан, что усиливает глобальное потепление.")
 
+
+@bot.command(name="репозиторий")
+async def repoyitore(ctx):
+    await ctx.send("https://github.com/AndreyRite/poteplenie")
+
 @bot.event
 async def on_ready():
     print(f'Бот {bot.user} готов к работе! Вводи !помощь и узнавай команды')
